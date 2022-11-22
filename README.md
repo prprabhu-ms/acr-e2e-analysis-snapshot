@@ -15,7 +15,7 @@ If you want to continue using this analysis tooling, fork the repository, and ei
 
 ### Analyze existing data
 
-[`data/raw/`](./data/raw/) contains prefetched historical data for CI.
+[`data/raw/`](./data/raw/) should contain prefetched historical data for CI. This snapshot instead contains the folder compressed as [`./data.zip`](./data.zip). First, decompress it into [`data/`](./data) so the rest of the tooling can find it.
 
 [`analysis/`](./analysis/) contains a set of Jupyter notebooks to analyze this data.
 

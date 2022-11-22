@@ -103,5 +103,6 @@ dist
 # TernJS port file
 .tern-port
 
-# Run preprocess.ipynb to regenerate locally
-data/cleaned/*
+# Unzip ./data.zip and then run `analysis/refresh.ps1`
+# See ./README.md
+data/
