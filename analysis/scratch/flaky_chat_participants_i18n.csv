@@ -1,0 +1,14 @@
+,workflow_created_date,workflow_id,url,workflow_id,build_flavor,composite,pw_test_project_name,pw_result_retry
+1000644,2022-11-04 00:00:00+00:00,3396337601,https://github.com/Azure/communication-ui-library/actions/runs/3396337601,3396337601,stable,chat,Desktop Chrome,1
+1000643,2022-11-04 00:00:00+00:00,3396337601,https://github.com/Azure/communication-ui-library/actions/runs/3396337601,3396337601,stable,chat,Desktop Chrome,0
+1000646,2022-11-04 00:00:00+00:00,3396337601,https://github.com/Azure/communication-ui-library/actions/runs/3396337601,3396337601,stable,chat,Mobile Android Portrait,0
+902814,2022-10-26 00:00:00+00:00,3333436847,https://github.com/Azure/communication-ui-library/actions/runs/3333436847,3333436847,beta,chat,Mobile Android Portrait,0
+235679,2022-08-09 00:00:00+00:00,2822890305,https://github.com/Azure/communication-ui-library/actions/runs/2822890305,2822890305,beta,chat,Mobile Android Portrait,2
+235674,2022-08-09 00:00:00+00:00,2822890305,https://github.com/Azure/communication-ui-library/actions/runs/2822890305,2822890305,beta,chat,Desktop Chrome,0
+235675,2022-08-09 00:00:00+00:00,2822890305,https://github.com/Azure/communication-ui-library/actions/runs/2822890305,2822890305,beta,chat,Desktop Chrome,1
+235676,2022-08-09 00:00:00+00:00,2822890305,https://github.com/Azure/communication-ui-library/actions/runs/2822890305,2822890305,beta,chat,Desktop Chrome,2
+235677,2022-08-09 00:00:00+00:00,2822890305,https://github.com/Azure/communication-ui-library/actions/runs/2822890305,2822890305,beta,chat,Mobile Android Portrait,0
+235678,2022-08-09 00:00:00+00:00,2822890305,https://github.com/Azure/communication-ui-library/actions/runs/2822890305,2822890305,beta,chat,Mobile Android Portrait,1
+235680,2022-08-09 00:00:00+00:00,2822890305,https://github.com/Azure/communication-ui-library/actions/runs/2822890305,2822890305,beta,chat,Mobile Android Landscape,0
+235681,2022-08-09 00:00:00+00:00,2822890305,https://github.com/Azure/communication-ui-library/actions/runs/2822890305,2822890305,beta,chat,Mobile Android Landscape,1
+235682,2022-08-09 00:00:00+00:00,2822890305,https://github.com/Azure/communication-ui-library/actions/runs/2822890305,2822890305,beta,chat,Mobile Android Landscape,2

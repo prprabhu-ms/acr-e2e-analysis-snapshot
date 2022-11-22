@@ -1,0 +1,12 @@
+name: e2eanalysis
+
+channels:
+  - conda-forge
+
+dependencies:
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - pip
+  - plotly
