@@ -2,7 +2,6 @@ package workerpool
 
 import (
 	"log"
-	"time"
 )
 
 func RunBatched(poolSize int, batchSize int, actions []func()) {
@@ -17,7 +16,6 @@ func RunBatched(poolSize int, batchSize int, actions []func()) {
 			j = len(actions)
 		}
 		Run(poolSize, actions[i:j])
-		log.Printf("Processed %d of %d actions. Waiting for %s before next batch.", j, len(actions), batchWaitTime)
-		time.Sleep(batchWaitTime)
+		log.Printf("Processed %d of %d actions.", j, len(actions))
 	}
 }

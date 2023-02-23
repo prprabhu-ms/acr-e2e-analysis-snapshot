@@ -2,7 +2,6 @@ package workerpool
 
 import (
 	"sync"
-	"time"
 )
 
 func Run(poolSize int, actions []func()) {
@@ -40,5 +39,3 @@ type poolItem struct {
 	Action func()
 	Done   bool
 }
-
-const batchWaitTime = 5 * time.Minute

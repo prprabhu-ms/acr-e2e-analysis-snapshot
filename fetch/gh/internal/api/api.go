@@ -28,9 +28,9 @@ func runWithRetry(m *retryManager, args []string) bytes.Buffer {
 	}
 	retry, backoff := m.retryAfter(err)
 	if !retry {
-		log.Fatal(err)
+		log.Fatalf("FAILED: %s. No retry supported with this error.", err)
 	}
-	log.Printf("WARNING: gh invocation failed with %s. Retrying after %s", err, backoff)
+	log.Printf("WARNING: %s. Retrying after %s", err, backoff)
 	time.Sleep(backoff)
 	return runWithRetry(m, args)
 }
